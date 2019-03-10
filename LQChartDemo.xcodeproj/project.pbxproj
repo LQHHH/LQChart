@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D504B095D2B17CFCF59184F /* Pods_LQChartDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2D9F922D7D12C74B039A69 /* Pods_LQChartDemo.framework */; };
+		FB05838A2233A4B600F6DFD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583892233A4B600F6DFD3 /* AppDelegate.swift */; };
+		FB05838C2233A4B600F6DFD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05838B2233A4B600F6DFD3 /* ViewController.swift */; };
+		FB0583912233A4B800F6DFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0583902233A4B800F6DFD3 /* Assets.xcassets */; };
+		FB0583942233A4B800F6DFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0583922233A4B800F6DFD3 /* LaunchScreen.storyboard */; };
+		FB05839F2233A4B800F6DFD3 /* LQChartDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05839E2233A4B800F6DFD3 /* LQChartDemoTests.swift */; };
+		FB0583AA2233A4B800F6DFD3 /* LQChartDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583A92233A4B800F6DFD3 /* LQChartDemoUITests.swift */; };
+		FB0583BA2233A58500F6DFD3 /* LQChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583B82233A58500F6DFD3 /* LQChartView.swift */; };
+		FB0583BB2233A58500F6DFD3 /* LQLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583B92233A58500F6DFD3 /* LQLineChartView.swift */; };
+		FB0583BE2233A5B400F6DFD3 /* LQLineChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583BD2233A5B400F6DFD3 /* LQLineChartVC.swift */; };
+		FB0583C02233A5C200F6DFD3 /* pch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583BF2233A5C200F6DFD3 /* pch.swift */; };
+		FB0583C22233C4C500F6DFD3 /* LQBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583C12233C4C500F6DFD3 /* LQBarChartView.swift */; };
+		FB0583C52233E14900F6DFD3 /* LQBarChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583C42233E14900F6DFD3 /* LQBarChartVC.swift */; };
+		FB0583C72233F59A00F6DFD3 /* LQCurveChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583C62233F59A00F6DFD3 /* LQCurveChartView.swift */; };
+		FB0583CA2233F66100F6DFD3 /* LQCurveChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583C92233F66100F6DFD3 /* LQCurveChartVC.swift */; };
+		FB0583CC2234EE8600F6DFD3 /* LQPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583CB2234EE8600F6DFD3 /* LQPieChartView.swift */; };
+		FB0583CF2234EECB00F6DFD3 /* LQPieChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583CE2234EECB00F6DFD3 /* LQPieChartVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB05839B2233A4B800F6DFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB05837E2233A4B600F6DFD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0583852233A4B600F6DFD3;
+			remoteInfo = LQChartDemo;
+		};
+		FB0583A62233A4B800F6DFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB05837E2233A4B600F6DFD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0583852233A4B600F6DFD3;
+			remoteInfo = LQChartDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2D9F922D7D12C74B039A69 /* Pods_LQChartDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQChartDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2636A5695FCC6B98315ACA /* Pods-LQChartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQChartDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LQChartDemo/Pods-LQChartDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DF252BB2B7FD7F32B39FAEDB /* Pods-LQChartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQChartDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LQChartDemo/Pods-LQChartDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB0583862233A4B600F6DFD3 /* LQChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0583892233A4B600F6DFD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB05838B2233A4B600F6DFD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0583902233A4B800F6DFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0583932233A4B800F6DFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0583952233A4B800F6DFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB05839A2233A4B800F6DFD3 /* LQChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB05839E2233A4B800F6DFD3 /* LQChartDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQChartDemoTests.swift; sourceTree = "<group>"; };
+		FB0583A02233A4B800F6DFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0583A52233A4B800F6DFD3 /* LQChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0583A92233A4B800F6DFD3 /* LQChartDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQChartDemoUITests.swift; sourceTree = "<group>"; };
+		FB0583AB2233A4B800F6DFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0583B82233A58500F6DFD3 /* LQChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQChartView.swift; sourceTree = "<group>"; };
+		FB0583B92233A58500F6DFD3 /* LQLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQLineChartView.swift; sourceTree = "<group>"; };
+		FB0583BD2233A5B400F6DFD3 /* LQLineChartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQLineChartVC.swift; sourceTree = "<group>"; };
+		FB0583BF2233A5C200F6DFD3 /* pch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pch.swift; sourceTree = "<group>"; };
+		FB0583C12233C4C500F6DFD3 /* LQBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQBarChartView.swift; sourceTree = "<group>"; };
+		FB0583C42233E14900F6DFD3 /* LQBarChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQBarChartVC.swift; sourceTree = "<group>"; };
+		FB0583C62233F59A00F6DFD3 /* LQCurveChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQCurveChartView.swift; sourceTree = "<group>"; };
+		FB0583C92233F66100F6DFD3 /* LQCurveChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQCurveChartVC.swift; sourceTree = "<group>"; };
+		FB0583CB2234EE8600F6DFD3 /* LQPieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQPieChartView.swift; sourceTree = "<group>"; };
+		FB0583CE2234EECB00F6DFD3 /* LQPieChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQPieChartVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0583832233A4B600F6DFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D504B095D2B17CFCF59184F /* Pods_LQChartDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0583972233A4B800F6DFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0583A22233A4B800F6DFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		604A82BCF372064F1ED66EE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF252BB2B7FD7F32B39FAEDB /* Pods-LQChartDemo.debug.xcconfig */,
+				2B2636A5695FCC6B98315ACA /* Pods-LQChartDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E766C4A08DE6A1B7A049B9D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D9F922D7D12C74B039A69 /* Pods_LQChartDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB05837D2233A4B600F6DFD3 = {
+			isa = PBXGroup;
+			children = (
+				FB0583882233A4B600F6DFD3 /* LQChartDemo */,
+				FB05839D2233A4B800F6DFD3 /* LQChartDemoTests */,
+				FB0583A82233A4B800F6DFD3 /* LQChartDemoUITests */,
+				FB0583872233A4B600F6DFD3 /* Products */,
+				604A82BCF372064F1ED66EE5 /* Pods */,
+				E766C4A08DE6A1B7A049B9D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0583872233A4B600F6DFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0583862233A4B600F6DFD3 /* LQChartDemo.app */,
+				FB05839A2233A4B800F6DFD3 /* LQChartDemoTests.xctest */,
+				FB0583A52233A4B800F6DFD3 /* LQChartDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0583882233A4B600F6DFD3 /* LQChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB0583B72233A58500F6DFD3 /* LQChart */,
+				FB0583892233A4B600F6DFD3 /* AppDelegate.swift */,
+				FB05838B2233A4B600F6DFD3 /* ViewController.swift */,
+				FB0583BF2233A5C200F6DFD3 /* pch.swift */,
+				FB0583BC2233A5B400F6DFD3 /* LineChartVC */,
+				FB0583C32233E0DE00F6DFD3 /* BarChartVC */,
+				FB0583C82233F62500F6DFD3 /* CurveChartVC */,
+				FB0583CD2234EE9E00F6DFD3 /* PieChartVC */,
+				FB0583902233A4B800F6DFD3 /* Assets.xcassets */,
+				FB0583922233A4B800F6DFD3 /* LaunchScreen.storyboard */,
+				FB0583952233A4B800F6DFD3 /* Info.plist */,
+			);
+			path = LQChartDemo;
+			sourceTree = "<group>";
+		};
+		FB05839D2233A4B800F6DFD3 /* LQChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB05839E2233A4B800F6DFD3 /* LQChartDemoTests.swift */,
+				FB0583A02233A4B800F6DFD3 /* Info.plist */,
+			);
+			path = LQChartDemoTests;
+			sourceTree = "<group>";
+		};
+		FB0583A82233A4B800F6DFD3 /* LQChartDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0583A92233A4B800F6DFD3 /* LQChartDemoUITests.swift */,
+				FB0583AB2233A4B800F6DFD3 /* Info.plist */,
+			);
+			path = LQChartDemoUITests;
+			sourceTree = "<group>";
+		};
+		FB0583B72233A58500F6DFD3 /* LQChart */ = {
+			isa = PBXGroup;
+			children = (
+				FB0583B82233A58500F6DFD3 /* LQChartView.swift */,
+				FB0583B92233A58500F6DFD3 /* LQLineChartView.swift */,
+				FB0583C12233C4C500F6DFD3 /* LQBarChartView.swift */,
+				FB0583C62233F59A00F6DFD3 /* LQCurveChartView.swift */,
+				FB0583CB2234EE8600F6DFD3 /* LQPieChartView.swift */,
+			);
+			path = LQChart;
+			sourceTree = "<group>";
+		};
+		FB0583BC2233A5B400F6DFD3 /* LineChartVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB0583BD2233A5B400F6DFD3 /* LQLineChartVC.swift */,
+			);
+			path = LineChartVC;
+			sourceTree = "<group>";
+		};
+		FB0583C32233E0DE00F6DFD3 /* BarChartVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB0583C42233E14900F6DFD3 /* LQBarChartVC.swift */,
+			);
+			path = BarChartVC;
+			sourceTree = "<group>";
+		};
+		FB0583C82233F62500F6DFD3 /* CurveChartVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB0583C92233F66100F6DFD3 /* LQCurveChartVC.swift */,
+			);
+			path = CurveChartVC;
+			sourceTree = "<group>";
+		};
+		FB0583CD2234EE9E00F6DFD3 /* PieChartVC */ = {
+			isa = PBXGroup;
+			children = (
+				FB0583CE2234EECB00F6DFD3 /* LQPieChartVC.swift */,
+			);
+			path = PieChartVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0583852233A4B600F6DFD3 /* LQChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0583AE2233A4B800F6DFD3 /* Build configuration list for PBXNativeTarget "LQChartDemo" */;
+			buildPhases = (
+				4D0122FAC8D5C4DB71E85F00 /* [CP] Check Pods Manifest.lock */,
+				FB0583822233A4B600F6DFD3 /* Sources */,
+				FB0583832233A4B600F6DFD3 /* Frameworks */,
+				FB0583842233A4B600F6DFD3 /* Resources */,
+				355F76E42409E7813BD0FFAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQChartDemo;
+			productName = LQChartDemo;
+			productReference = FB0583862233A4B600F6DFD3 /* LQChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0583992233A4B800F6DFD3 /* LQChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0583B12233A4B800F6DFD3 /* Build configuration list for PBXNativeTarget "LQChartDemoTests" */;
+			buildPhases = (
+				FB0583962233A4B800F6DFD3 /* Sources */,
+				FB0583972233A4B800F6DFD3 /* Frameworks */,
+				FB0583982233A4B800F6DFD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB05839C2233A4B800F6DFD3 /* PBXTargetDependency */,
+			);
+			name = LQChartDemoTests;
+			productName = LQChartDemoTests;
+			productReference = FB05839A2233A4B800F6DFD3 /* LQChartDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0583A42233A4B800F6DFD3 /* LQChartDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0583B42233A4B800F6DFD3 /* Build configuration list for PBXNativeTarget "LQChartDemoUITests" */;
+			buildPhases = (
+				FB0583A12233A4B800F6DFD3 /* Sources */,
+				FB0583A22233A4B800F6DFD3 /* Frameworks */,
+				FB0583A32233A4B800F6DFD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0583A72233A4B800F6DFD3 /* PBXTargetDependency */,
+			);
+			name = LQChartDemoUITests;
+			productName = LQChartDemoUITests;
+			productReference = FB0583A52233A4B800F6DFD3 /* LQChartDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB05837E2233A4B600F6DFD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LQ;
+				TargetAttributes = {
+					FB0583852233A4B600F6DFD3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FB0583992233A4B800F6DFD3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FB0583852233A4B600F6DFD3;
+					};
+					FB0583A42233A4B800F6DFD3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FB0583852233A4B600F6DFD3;
+					};
+				};
+			};
+			buildConfigurationList = FB0583812233A4B600F6DFD3 /* Build configuration list for PBXProject "LQChartDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB05837D2233A4B600F6DFD3;
+			productRefGroup = FB0583872233A4B600F6DFD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0583852233A4B600F6DFD3 /* LQChartDemo */,
+				FB0583992233A4B800F6DFD3 /* LQChartDemoTests */,
+				FB0583A42233A4B800F6DFD3 /* LQChartDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0583842233A4B600F6DFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0583942233A4B800F6DFD3 /* LaunchScreen.storyboard in Resources */,
+				FB0583912233A4B800F6DFD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0583982233A4B800F6DFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0583A32233A4B800F6DFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		355F76E42409E7813BD0FFAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LQChartDemo/Pods-LQChartDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQChartDemo/Pods-LQChartDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0122FAC8D5C4DB71E85F00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LQChartDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0583822233A4B600F6DFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0583CC2234EE8600F6DFD3 /* LQPieChartView.swift in Sources */,
+				FB0583CA2233F66100F6DFD3 /* LQCurveChartVC.swift in Sources */,
+				FB0583BA2233A58500F6DFD3 /* LQChartView.swift in Sources */,
+				FB0583C72233F59A00F6DFD3 /* LQCurveChartView.swift in Sources */,
+				FB0583BE2233A5B400F6DFD3 /* LQLineChartVC.swift in Sources */,
+				FB0583C52233E14900F6DFD3 /* LQBarChartVC.swift in Sources */,
+				FB05838C2233A4B600F6DFD3 /* ViewController.swift in Sources */,
+				FB0583BB2233A58500F6DFD3 /* LQLineChartView.swift in Sources */,
+				FB0583C22233C4C500F6DFD3 /* LQBarChartView.swift in Sources */,
+				FB05838A2233A4B600F6DFD3 /* AppDelegate.swift in Sources */,
+				FB0583C02233A5C200F6DFD3 /* pch.swift in Sources */,
+				FB0583CF2234EECB00F6DFD3 /* LQPieChartVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0583962233A4B800F6DFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB05839F2233A4B800F6DFD3 /* LQChartDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0583A12233A4B800F6DFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0583AA2233A4B800F6DFD3 /* LQChartDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB05839C2233A4B800F6DFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0583852233A4B600F6DFD3 /* LQChartDemo */;
+			targetProxy = FB05839B2233A4B800F6DFD3 /* PBXContainerItemProxy */;
+		};
+		FB0583A72233A4B800F6DFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0583852233A4B600F6DFD3 /* LQChartDemo */;
+			targetProxy = FB0583A62233A4B800F6DFD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0583922233A4B800F6DFD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0583932233A4B800F6DFD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0583AC2233A4B800F6DFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB0583AD2233A4B800F6DFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0583AF2233A4B800F6DFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF252BB2B7FD7F32B39FAEDB /* Pods-LQChartDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNAG35B36V;
+				INFOPLIST_FILE = LQChartDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0583B02233A4B800F6DFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2636A5695FCC6B98315ACA /* Pods-LQChartDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNAG35B36V;
+				INFOPLIST_FILE = LQChartDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB0583B22233A4B800F6DFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQChartDemo.app/LQChartDemo";
+			};
+			name = Debug;
+		};
+		FB0583B32233A4B800F6DFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQChartDemo.app/LQChartDemo";
+			};
+			name = Release;
+		};
+		FB0583B52233A4B800F6DFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQChartDemo;
+			};
+			name = Debug;
+		};
+		FB0583B62233A4B800F6DFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQChartDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0583812233A4B600F6DFD3 /* Build configuration list for PBXProject "LQChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0583AC2233A4B800F6DFD3 /* Debug */,
+				FB0583AD2233A4B800F6DFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0583AE2233A4B800F6DFD3 /* Build configuration list for PBXNativeTarget "LQChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0583AF2233A4B800F6DFD3 /* Debug */,
+				FB0583B02233A4B800F6DFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0583B12233A4B800F6DFD3 /* Build configuration list for PBXNativeTarget "LQChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0583B22233A4B800F6DFD3 /* Debug */,
+				FB0583B32233A4B800F6DFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0583B42233A4B800F6DFD3 /* Build configuration list for PBXNativeTarget "LQChartDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0583B52233A4B800F6DFD3 /* Debug */,
+				FB0583B62233A4B800F6DFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB05837E2233A4B600F6DFD3 /* Project object */;
+}
