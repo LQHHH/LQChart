@@ -42,7 +42,7 @@ class LQLineChartView: LQChartView {
         if self.isNeedAxisX {
             self.drawAxisX(ctx!)
         }
-        if self.isNeedAxisY == true {
+        if self.isNeedAxisY {
             self.drawAxisY(ctx!)
             self.drawTextInAxisY(ctx!)
         }

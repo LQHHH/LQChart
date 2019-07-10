@@ -20,15 +20,15 @@ class LQPieChartVC: UIViewController {
     //MARK: - lazy
     
     lazy var pieChartView: LQChartView = {
-        let chartView = LQChartView.chartView(frame: CGRect.init(x: 20, y: 20 + navigationBar_height, width: screen_width - 40, height: 250), type: .pieChart)
-        chartView.backgroundColor = .white
+        let chartView = LQChartView.chartView(frame: CGRect.init(x: 0, y: 0, width: screen_width - 40, height: 250), type: .pieChart)
+        chartView.center          = self.view.center
         chartView.dataSource      = self
-        chartView.pieChartColors  = [.red,.blue,.yellow,.orange,.purple]
+        chartView.pieChartColors  = [.red,.blue,.yellow,.orange,.purple,.cyan]
         return chartView
     }()
     
     lazy var dataSource: [Double] = {
-        let dataSource = [355.0,270.0,187.0,334.0,50.0]
+        let dataSource = [355.0,270.0,187.0,334.0,50.0,20.0]
         return dataSource
     }()
 
